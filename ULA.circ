@@ -109,77 +109,77 @@
       <a name="inputtype" val="row"/>
       <a name="label" val="saida1"/>
     </comp>
-    <comp lib="8" loc="(205,356)" name="Text">
+    <comp lib="8" loc="(205,355)" name="Text">
       <a name="text" val="ULA de 8 bits"/>
     </comp>
-    <comp lib="8" loc="(207,55)" name="Text">
+    <comp lib="8" loc="(205,55)" name="Text">
       <a name="text" val="ULA de 1 bit"/>
     </comp>
-    <comp lib="8" loc="(212,414)" name="Text">
+    <comp lib="8" loc="(210,410)" name="Text">
       <a name="font" val="SansSerif plain 16"/>
       <a name="text" val="é que os dados de entrada e saída é de 8 bits"/>
     </comp>
-    <comp lib="8" loc="(224,96)" name="Text">
+    <comp lib="8" loc="(220,95)" name="Text">
       <a name="font" val="SansSerif plain 16"/>
       <a name="text" val=" com 8 comandos sendo assim 3 bits de seleção"/>
     </comp>
-    <comp lib="8" loc="(262,392)" name="Text">
+    <comp lib="8" loc="(260,390)" name="Text">
       <a name="font" val="SansSerif plain 16"/>
       <a name="text" val="a ULA segue a mesma tabela de comando a única diferença "/>
     </comp>
-    <comp lib="8" loc="(502,52)" name="Text">
+    <comp lib="8" loc="(500,155)" name="Text">
+      <a name="text" val="100"/>
+    </comp>
+    <comp lib="8" loc="(500,175)" name="Text">
+      <a name="text" val="101"/>
+    </comp>
+    <comp lib="8" loc="(500,195)" name="Text">
+      <a name="text" val="110"/>
+    </comp>
+    <comp lib="8" loc="(500,215)" name="Text">
+      <a name="text" val="111"/>
+    </comp>
+    <comp lib="8" loc="(500,50)" name="Text">
       <a name="font" val="SansSerif bold 22"/>
       <a name="text" val="sel"/>
     </comp>
-    <comp lib="8" loc="(503,156)" name="Text">
-      <a name="text" val="100"/>
-    </comp>
-    <comp lib="8" loc="(504,177)" name="Text">
-      <a name="text" val="101"/>
-    </comp>
-    <comp lib="8" loc="(504,197)" name="Text">
-      <a name="text" val="110"/>
-    </comp>
-    <comp lib="8" loc="(504,216)" name="Text">
-      <a name="text" val="111"/>
-    </comp>
-    <comp lib="8" loc="(504,77)" name="Text">
+    <comp lib="8" loc="(500,75)" name="Text">
       <a name="text" val="000"/>
     </comp>
-    <comp lib="8" loc="(505,118)" name="Text">
+    <comp lib="8" loc="(505,115)" name="Text">
       <a name="text" val="010"/>
     </comp>
-    <comp lib="8" loc="(505,136)" name="Text">
+    <comp lib="8" loc="(505,135)" name="Text">
       <a name="text" val="011"/>
     </comp>
-    <comp lib="8" loc="(505,97)" name="Text">
+    <comp lib="8" loc="(505,95)" name="Text">
       <a name="text" val="001"/>
     </comp>
-    <comp lib="8" loc="(529,21)" name="Text">
+    <comp lib="8" loc="(525,20)" name="Text">
       <a name="text" val="Tabela de comandos"/>
+    </comp>
+    <comp lib="8" loc="(555,155)" name="Text">
+      <a name="text" val="xor"/>
     </comp>
     <comp lib="8" loc="(555,95)" name="Text">
       <a name="text" val="or"/>
     </comp>
-    <comp lib="8" loc="(559,155)" name="Text">
-      <a name="text" val="xor"/>
-    </comp>
-    <comp lib="8" loc="(560,136)" name="Text">
+    <comp lib="8" loc="(560,135)" name="Text">
       <a name="text" val="nor"/>
     </comp>
-    <comp lib="8" loc="(560,196)" name="Text">
-      <a name="text" val="add"/>
-    </comp>
-    <comp lib="8" loc="(560,216)" name="Text">
-      <a name="text" val="sub"/>
-    </comp>
-    <comp lib="8" loc="(561,76)" name="Text">
-      <a name="text" val="and"/>
-    </comp>
-    <comp lib="8" loc="(563,176)" name="Text">
+    <comp lib="8" loc="(560,175)" name="Text">
       <a name="text" val="xnor"/>
     </comp>
-    <comp lib="8" loc="(565,116)" name="Text">
+    <comp lib="8" loc="(560,195)" name="Text">
+      <a name="text" val="add"/>
+    </comp>
+    <comp lib="8" loc="(560,215)" name="Text">
+      <a name="text" val="sub"/>
+    </comp>
+    <comp lib="8" loc="(560,75)" name="Text">
+      <a name="text" val="and"/>
+    </comp>
+    <comp lib="8" loc="(565,115)" name="Text">
       <a name="text" val="nand"/>
     </comp>
     <comp lib="8" loc="(565,50)" name="Text">
@@ -437,28 +437,30 @@
       <text dominant-baseline="central" font-family="SansSerif" font-size="9" text-anchor="middle" x="138" y="97">B</text>
       <text dominant-baseline="central" font-family="SansSerif" font-size="9" text-anchor="middle" x="160" y="80">S</text>
       <circ-anchor facing="east" x="170" y="80"/>
-      <circ-port dir="in" pin="240,890" x="130" y="60"/>
-      <circ-port dir="in" pin="260,930" x="130" y="100"/>
+      <circ-port dir="in" pin="260,240" x="130" y="60"/>
+      <circ-port dir="in" pin="260,280" x="130" y="100"/>
       <circ-port dir="in" pin="410,940" x="160" y="100"/>
       <circ-port dir="out" pin="360,950" x="140" y="110"/>
       <circ-port dir="out" pin="510,260" x="170" y="80"/>
     </appear>
-    <comp lib="0" loc="(240,890)" name="Pin">
+    <comp lib="0" loc="(260,240)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="A"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="0" loc="(260,930)" name="Pin">
+    <comp lib="0" loc="(260,280)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="B"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="0" loc="(280,930)" name="Splitter">
+    <comp lib="0" loc="(280,280)" name="Splitter">
+      <a name="appear" val="right"/>
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
       <a name="spacing" val="9"/>
     </comp>
-    <comp lib="0" loc="(300,890)" name="Splitter">
+    <comp lib="0" loc="(300,240)" name="Splitter">
+      <a name="appear" val="right"/>
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
       <a name="spacing" val="9"/>
@@ -495,8 +497,8 @@
     <comp loc="(390,720)" name="ULA_1bit"/>
     <comp loc="(390,810)" name="ULA_1bit"/>
     <comp loc="(390,900)" name="ULA_1bit"/>
-    <wire from="(240,890)" to="(300,890)"/>
-    <wire from="(260,930)" to="(280,930)"/>
+    <wire from="(260,240)" to="(300,240)"/>
+    <wire from="(260,280)" to="(280,280)"/>
     <wire from="(300,290)" to="(350,290)"/>
     <wire from="(300,380)" to="(350,380)"/>
     <wire from="(300,470)" to="(350,470)"/>
