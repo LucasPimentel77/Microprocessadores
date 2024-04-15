@@ -5,7 +5,6 @@
   <lib desc="#Wiring" name="0">
     <tool name="Pin">
       <a name="appearance" val="classic"/>
-      <a name="width" val="4"/>
     </tool>
     <tool name="Bit Extender">
       <a name="out_width" val="1"/>
@@ -22,7 +21,6 @@
   <lib desc="#BFH-Praktika" name="9"/>
   <lib desc="#Input/Output-Extra" name="10"/>
   <lib desc="#Soc" name="11"/>
-  <lib desc="file#memoria.circ" name="12"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -1153,35 +1151,42 @@
     <comp lib="5" loc="(640,770)" name="DipSwitch"/>
     <comp lib="5" loc="(640,850)" name="DipSwitch"/>
     <comp lib="5" loc="(640,930)" name="DipSwitch"/>
-    <comp lib="8" loc="(1031,436)" name="Text">
-      <a name="text" val="no qual os 4 bits mais significativos descreve "/>
-    </comp>
-    <comp lib="8" loc="(1032,410)" name="Text">
+    <comp lib="8" loc="(1030,410)" name="Text">
       <a name="text" val="as instruções são de até 1 byte apenas (8 bits) "/>
     </comp>
-    <comp lib="8" loc="(1040,514)" name="Text">
+    <comp lib="8" loc="(1030,435)" name="Text">
+      <a name="text" val="no qual os 4 bits mais significativos descreve "/>
+    </comp>
+    <comp lib="8" loc="(1040,510)" name="Text">
       <a name="text" val="se haver necessidade dependendo da instrução"/>
     </comp>
-    <comp lib="8" loc="(1046,485)" name="Text">
+    <comp lib="8" loc="(1045,485)" name="Text">
       <a name="text" val="representa o endereço da memória a ser buscada"/>
     </comp>
-    <comp lib="8" loc="(1057,793)" name="Text">
-      <a name="text" val="1000"/>
-    </comp>
-    <comp lib="8" loc="(1058,821)" name="Text">
-      <a name="text" val="1110"/>
-    </comp>
-    <comp lib="8" loc="(1059,700)" name="Text">
+    <comp lib="8" loc="(1055,700)" name="Text">
       <a name="text" val="0001"/>
     </comp>
-    <comp lib="8" loc="(1059,731)" name="Text">
+    <comp lib="8" loc="(1055,730)" name="Text">
       <a name="text" val="0010"/>
     </comp>
-    <comp lib="8" loc="(1059,764)" name="Text">
+    <comp lib="8" loc="(1055,760)" name="Text">
       <a name="text" val="0100"/>
     </comp>
-    <comp lib="8" loc="(1059,851)" name="Text">
+    <comp lib="8" loc="(1055,790)" name="Text">
+      <a name="text" val="1000"/>
+    </comp>
+    <comp lib="8" loc="(1055,820)" name="Text">
+      <a name="text" val="1110"/>
+    </comp>
+    <comp lib="8" loc="(1055,850)" name="Text">
       <a name="text" val="1111"/>
+    </comp>
+    <comp lib="8" loc="(1060,455)" name="Text">
+      <a name="text" val="a função ou mnemônicos e os 4 menos significativos "/>
+    </comp>
+    <comp lib="8" loc="(1060,635)" name="Text">
+      <a name="font" val="SansSerif bold 17"/>
+      <a name="text" val="código"/>
     </comp>
     <comp lib="8" loc="(1060,670)" name="Text">
       <a name="text" val="0000"/>
@@ -1189,71 +1194,64 @@
     <comp lib="8" loc="(1060,910)" name="Text">
       <a name="text" val="as instruções LDA, OUT e HLT são apenas de 4 bits"/>
     </comp>
-    <comp lib="8" loc="(1061,458)" name="Text">
-      <a name="text" val="a função ou mnemônicos e os 4 menos significativos "/>
-    </comp>
-    <comp lib="8" loc="(1064,637)" name="Text">
-      <a name="font" val="SansSerif bold 17"/>
-      <a name="text" val="código"/>
-    </comp>
-    <comp lib="8" loc="(1103,934)" name="Text">
+    <comp lib="8" loc="(1100,930)" name="Text">
       <a name="text" val="não tendo a necessidade de colocar alguma coisa depois dele"/>
     </comp>
-    <comp lib="8" loc="(1144,670)" name="Text">
+    <comp lib="8" loc="(1140,670)" name="Text">
       <a name="text" val="não tem"/>
     </comp>
-    <comp lib="8" loc="(1145,634)" name="Text">
+    <comp lib="8" loc="(1145,630)" name="Text">
       <a name="text" val="endereço"/>
     </comp>
-    <comp lib="8" loc="(1149,703)" name="Text">
+    <comp lib="8" loc="(1145,700)" name="Text">
       <a name="text" val="XXXX"/>
     </comp>
-    <comp lib="8" loc="(1149,762)" name="Text">
+    <comp lib="8" loc="(1145,760)" name="Text">
       <a name="text" val="XXXX"/>
     </comp>
-    <comp lib="8" loc="(1150,732)" name="Text">
+    <comp lib="8" loc="(1150,730)" name="Text">
       <a name="text" val="XXXX"/>
     </comp>
-    <comp lib="8" loc="(1150,793)" name="Text">
+    <comp lib="8" loc="(1150,790)" name="Text">
       <a name="text" val="XXXX"/>
+    </comp>
+    <comp lib="8" loc="(1150,815)" name="Text">
+      <a name="text" val="não tem"/>
     </comp>
     <comp lib="8" loc="(1150,850)" name="Text">
       <a name="text" val="não tem"/>
     </comp>
-    <comp lib="8" loc="(1153,819)" name="Text">
-      <a name="text" val="não tem"/>
-    </comp>
-    <comp lib="8" loc="(477,117)" name="Text">
+    <comp lib="8" loc="(475,115)" name="Text">
       <a name="text" val="são para guardar dados."/>
     </comp>
-    <comp lib="8" loc="(664,69)" name="Text">
+    <comp lib="8" loc="(660,65)" name="Text">
       <a name="text" val="a memória ram possui 16 registradoes de 8bits que vão de h0 até h15"/>
     </comp>
-    <comp lib="8" loc="(674,95)" name="Text">
+    <comp lib="8" loc="(670,95)" name="Text">
       <a name="text" val="convencionalmente os 8 primeiros são para instruções e os 8 restantes "/>
     </comp>
-    <comp lib="8" loc="(954,855)" name="Text">
+    <comp lib="8" loc="(950,855)" name="Text">
       <a name="text" val="HLT"/>
     </comp>
-    <comp lib="8" loc="(955,798)" name="Text">
-      <a name="text" val="OR"/>
-    </comp>
-    <comp lib="8" loc="(955,827)" name="Text">
-      <a name="text" val="OUT"/>
-    </comp>
-    <comp lib="8" loc="(957,674)" name="Text">
+    <comp lib="8" loc="(955,670)" name="Text">
       <a name="text" val="LDA"/>
     </comp>
-    <comp lib="8" loc="(957,705)" name="Text">
+    <comp lib="8" loc="(955,705)" name="Text">
       <a name="text" val="ADD"/>
     </comp>
-    <comp lib="8" loc="(957,735)" name="Text">
+    <comp lib="8" loc="(955,735)" name="Text">
       <a name="text" val="SUB"/>
     </comp>
-    <comp lib="8" loc="(957,766)" name="Text">
+    <comp lib="8" loc="(955,765)" name="Text">
       <a name="text" val="AND"/>
     </comp>
-    <comp lib="8" loc="(962,635)" name="Text">
+    <comp lib="8" loc="(955,795)" name="Text">
+      <a name="text" val="OR"/>
+    </comp>
+    <comp lib="8" loc="(955,825)" name="Text">
+      <a name="text" val="OUT"/>
+    </comp>
+    <comp lib="8" loc="(960,635)" name="Text">
       <a name="font" val="SansSerif bold 17"/>
       <a name="text" val="mnemonico"/>
     </comp>
