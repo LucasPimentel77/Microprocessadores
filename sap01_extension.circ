@@ -58,7 +58,7 @@
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="2.0"/>
+    <a name="simulationFrequency" val="0.5"/>
     <comp lib="0" loc="(320,790)" name="Probe">
       <a name="appearance" val="NewPins"/>
     </comp>
@@ -295,65 +295,65 @@
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="recebe os dados do acumulador"/>
     </comp>
-    <comp lib="8" loc="(117,703)" name="Text">
+    <comp lib="8" loc="(115,700)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="para aquela instrução"/>
     </comp>
-    <comp lib="8" loc="(122,547)" name="Text">
+    <comp lib="8" loc="(120,545)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="e dados para ser acessados"/>
     </comp>
-    <comp lib="8" loc="(150,201)" name="Text">
+    <comp lib="8" loc="(150,200)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="acessada"/>
     </comp>
-    <comp lib="8" loc="(154,522)" name="Text">
+    <comp lib="8" loc="(150,520)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="de 16 registradores de 8 bits cada que "/>
     </comp>
-    <comp lib="8" loc="(157,534)" name="Text">
+    <comp lib="8" loc="(155,530)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="guarda as intruções para ser executadas"/>
     </comp>
-    <comp lib="8" loc="(158,678)" name="Text">
+    <comp lib="8" loc="(155,675)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="instrução, decodifica e manda para a"/>
     </comp>
-    <comp lib="8" loc="(161,370)" name="Text">
+    <comp lib="8" loc="(160,370)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="é um registrador de 4 bits que é conectado "/>
     </comp>
-    <comp lib="8" loc="(162,481)" name="Text">
+    <comp lib="8" loc="(160,480)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="RAM - Ramdom Acess Memory"/>
     </comp>
-    <comp lib="8" loc="(166,637)" name="Text">
-      <a name="font" val="SansSerif bold 12"/>
-      <a name="text" val="IR - instruction register"/>
-    </comp>
-    <comp lib="8" loc="(167,394)" name="Text">
+    <comp lib="8" loc="(165,390)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="o endereço que vai ser acessado na memória "/>
     </comp>
-    <comp lib="8" loc="(171,344)" name="Text">
+    <comp lib="8" loc="(165,635)" name="Text">
+      <a name="font" val="SansSerif bold 12"/>
+      <a name="text" val="IR - instruction register"/>
+    </comp>
+    <comp lib="8" loc="(170,340)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="MAR - Memory Address Register"/>
     </comp>
-    <comp lib="8" loc="(171,691)" name="Text">
-      <a name="font" val="SansSerif bold 11"/>
-      <a name="text" val="unidade de controle fazer o que é devido "/>
-    </comp>
-    <comp lib="8" loc="(172,667)" name="Text">
-      <a name="font" val="SansSerif bold 11"/>
-      <a name="text" val="é um registrador que recebe determinada "/>
-    </comp>
-    <comp lib="8" loc="(174,383)" name="Text">
+    <comp lib="8" loc="(170,380)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="diretamente com a memória RAM e aponta para "/>
     </comp>
-    <comp lib="8" loc="(174,511)" name="Text">
+    <comp lib="8" loc="(170,510)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="memória de acesso randômico é um conjunto "/>
+    </comp>
+    <comp lib="8" loc="(170,665)" name="Text">
+      <a name="font" val="SansSerif bold 11"/>
+      <a name="text" val="é um registrador que recebe determinada "/>
+    </comp>
+    <comp lib="8" loc="(170,690)" name="Text">
+      <a name="font" val="SansSerif bold 11"/>
+      <a name="text" val="unidade de controle fazer o que é devido "/>
     </comp>
     <comp lib="8" loc="(190,150)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
@@ -368,7 +368,7 @@
       <a name="text" val="o endereço da instrução a ser"/>
     </comp>
     <comp lib="8" loc="(665,1035)" name="Text">
-      <a name="font" val="SansSerif bold 11"/>
+      <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="Control"/>
     </comp>
     <comp lib="8" loc="(665,1055)" name="Text">
@@ -388,48 +388,48 @@
       <a name="font" val="SansSerif bold 15"/>
       <a name="text" val="Sinal"/>
     </comp>
-    <comp lib="8" loc="(945,126)" name="Text">
+    <comp lib="8" loc="(945,125)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="registrador de 8 bits que "/>
     </comp>
-    <comp lib="8" loc="(951,489)" name="Text">
+    <comp lib="8" loc="(950,265)" name="Text">
+      <a name="font" val="SansSerif bold 12"/>
+      <a name="text" val="ALU - Arithmetic Logic Unit"/>
+    </comp>
+    <comp lib="8" loc="(950,470)" name="Text">
+      <a name="font" val="SansSerif bold 12"/>
+      <a name="text" val="Register B"/>
+    </comp>
+    <comp lib="8" loc="(950,485)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="serve como um registrador auxiliar"/>
     </comp>
-    <comp lib="8" loc="(952,470)" name="Text">
-      <a name="font" val="SansSerif bold 11"/>
-      <a name="text" val="Register B"/>
-    </comp>
-    <comp lib="8" loc="(954,267)" name="Text">
-      <a name="font" val="SansSerif bold 11"/>
-      <a name="text" val="ALU - Arithmetic Logic Unit"/>
-    </comp>
     <comp lib="8" loc="(955,100)" name="Text">
-      <a name="font" val="SansSerif bold 11"/>
+      <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="Acumulador"/>
     </comp>
-    <comp lib="8" loc="(956,504)" name="Text">
+    <comp lib="8" loc="(955,290)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
-      <a name="text" val="que armazena dados para operações"/>
+      <a name="text" val="é a unidade responsável por fazer "/>
     </comp>
-    <comp lib="8" loc="(958,304)" name="Text">
+    <comp lib="8" loc="(955,300)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="as operações lógicas e aritméticas"/>
     </comp>
-    <comp lib="8" loc="(959,292)" name="Text">
+    <comp lib="8" loc="(955,500)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
-      <a name="text" val="é a unidade responsável por fazer "/>
+      <a name="text" val="que armazena dados para operações"/>
     </comp>
     <comp lib="8" loc="(960,140)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="registra resultado de operações"/>
     </comp>
-    <comp lib="8" loc="(967,701)" name="Text">
+    <comp lib="8" loc="(965,700)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="e mostra no display"/>
     </comp>
     <comp lib="8" loc="(990,665)" name="Text">
-      <a name="font" val="SansSerif bold 11"/>
+      <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="OUT - saída"/>
     </comp>
     <comp lib="9" loc="(740,640)" name="BCD_to_7_Segment_decoder"/>
@@ -729,7 +729,6 @@
       <a name="appearance" val="classic"/>
       <a name="label" val="Cp"/>
     </comp>
-    <comp lib="0" loc="(280,480)" name="Clock"/>
     <comp lib="0" loc="(810,110)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="4"/>
@@ -2743,221 +2742,6 @@
     <wire from="(500,1020)" to="(500,1050)"/>
     <wire from="(500,930)" to="(500,960)"/>
     <wire from="(530,970)" to="(560,970)"/>
-  </circuit>
-  <circuit name="Register_IR">
-    <a name="appearance" val="custom"/>
-    <a name="circuit" val="Register_IR"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="2.0"/>
-    <appear>
-      <text dominant-baseline="central" font-family="SansSerif" font-size="7" text-anchor="middle" x="80" y="102">L</text>
-      <text dominant-baseline="central" font-family="SansSerif" font-size="14" font-weight="bold" text-anchor="middle" x="82" y="43">R_IR</text>
-      <text dominant-baseline="central" font-family="SansSerif" font-size="7" text-anchor="middle" x="61" y="100">CLK</text>
-      <text dominant-baseline="central" font-family="SansSerif" font-size="7" text-anchor="middle" x="57" y="60">IN</text>
-      <text dominant-baseline="central" font-family="SansSerif" font-size="7" text-anchor="middle" x="100" y="102">E</text>
-      <rect fill="none" height="60" stroke="#000000" width="60" x="50" y="50"/>
-      <text dominant-baseline="central" font-family="SansSerif" font-size="7" text-anchor="middle" x="97" y="60">OUT</text>
-      <text dominant-baseline="central" font-family="SansSerif" font-size="7" text-anchor="middle" x="61" y="80">CLR</text>
-      <circ-anchor facing="east" x="110" y="60"/>
-      <circ-port dir="in" pin="100,150" x="50" y="60"/>
-      <circ-port dir="in" pin="180,870" x="80" y="110"/>
-      <circ-port dir="in" pin="180,900" x="100" y="110"/>
-      <circ-port dir="in" pin="180,930" x="50" y="80"/>
-      <circ-port dir="in" pin="180,960" x="50" y="100"/>
-      <circ-port dir="out" pin="600,150" x="110" y="60"/>
-    </appear>
-    <comp lib="0" loc="(100,150)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="0" loc="(120,150)" name="Splitter">
-      <a name="appear" val="right"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-      <a name="spacing" val="9"/>
-    </comp>
-    <comp lib="0" loc="(180,870)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="label" val="Li"/>
-    </comp>
-    <comp lib="0" loc="(180,900)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="label" val="Ei"/>
-    </comp>
-    <comp lib="0" loc="(180,930)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="label" val="CLR"/>
-    </comp>
-    <comp lib="0" loc="(180,960)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="0" loc="(580,150)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-      <a name="spacing" val="9"/>
-    </comp>
-    <comp lib="0" loc="(600,150)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="1" loc="(270,160)" name="Controlled Buffer"/>
-    <comp lib="1" loc="(270,250)" name="Controlled Buffer"/>
-    <comp lib="1" loc="(270,340)" name="Controlled Buffer"/>
-    <comp lib="1" loc="(270,430)" name="Controlled Buffer"/>
-    <comp lib="1" loc="(270,520)" name="Controlled Buffer"/>
-    <comp lib="1" loc="(270,610)" name="Controlled Buffer"/>
-    <comp lib="1" loc="(270,700)" name="Controlled Buffer"/>
-    <comp lib="1" loc="(270,790)" name="Controlled Buffer"/>
-    <comp lib="1" loc="(430,160)" name="Controlled Buffer"/>
-    <comp lib="1" loc="(430,250)" name="Controlled Buffer"/>
-    <comp lib="1" loc="(430,340)" name="Controlled Buffer"/>
-    <comp lib="1" loc="(430,430)" name="Controlled Buffer"/>
-    <comp lib="4" loc="(300,150)" name="D Flip-Flop">
-      <a name="appearance" val="logisim_evolution"/>
-      <a name="trigger" val="high"/>
-    </comp>
-    <comp lib="4" loc="(300,240)" name="D Flip-Flop">
-      <a name="appearance" val="logisim_evolution"/>
-      <a name="trigger" val="high"/>
-    </comp>
-    <comp lib="4" loc="(300,330)" name="D Flip-Flop">
-      <a name="appearance" val="logisim_evolution"/>
-      <a name="trigger" val="high"/>
-    </comp>
-    <comp lib="4" loc="(300,420)" name="D Flip-Flop">
-      <a name="appearance" val="logisim_evolution"/>
-      <a name="trigger" val="high"/>
-    </comp>
-    <comp lib="4" loc="(300,510)" name="D Flip-Flop">
-      <a name="appearance" val="logisim_evolution"/>
-      <a name="trigger" val="high"/>
-    </comp>
-    <comp lib="4" loc="(300,600)" name="D Flip-Flop">
-      <a name="appearance" val="logisim_evolution"/>
-      <a name="trigger" val="high"/>
-    </comp>
-    <comp lib="4" loc="(300,690)" name="D Flip-Flop">
-      <a name="appearance" val="logisim_evolution"/>
-      <a name="trigger" val="high"/>
-    </comp>
-    <comp lib="4" loc="(300,780)" name="D Flip-Flop">
-      <a name="appearance" val="logisim_evolution"/>
-      <a name="trigger" val="high"/>
-    </comp>
-    <wire from="(100,150)" to="(120,150)"/>
-    <wire from="(140,160)" to="(250,160)"/>
-    <wire from="(140,250)" to="(250,250)"/>
-    <wire from="(140,340)" to="(250,340)"/>
-    <wire from="(140,430)" to="(250,430)"/>
-    <wire from="(140,520)" to="(250,520)"/>
-    <wire from="(140,610)" to="(250,610)"/>
-    <wire from="(140,700)" to="(250,700)"/>
-    <wire from="(140,790)" to="(250,790)"/>
-    <wire from="(180,870)" to="(220,870)"/>
-    <wire from="(180,900)" to="(380,900)"/>
-    <wire from="(180,930)" to="(240,930)"/>
-    <wire from="(180,960)" to="(280,960)"/>
-    <wire from="(220,180)" to="(220,270)"/>
-    <wire from="(220,180)" to="(260,180)"/>
-    <wire from="(220,270)" to="(220,360)"/>
-    <wire from="(220,270)" to="(260,270)"/>
-    <wire from="(220,360)" to="(220,450)"/>
-    <wire from="(220,360)" to="(260,360)"/>
-    <wire from="(220,450)" to="(220,540)"/>
-    <wire from="(220,450)" to="(260,450)"/>
-    <wire from="(220,540)" to="(220,630)"/>
-    <wire from="(220,540)" to="(260,540)"/>
-    <wire from="(220,630)" to="(220,720)"/>
-    <wire from="(220,630)" to="(260,630)"/>
-    <wire from="(220,720)" to="(220,810)"/>
-    <wire from="(220,720)" to="(260,720)"/>
-    <wire from="(220,810)" to="(220,870)"/>
-    <wire from="(220,810)" to="(260,810)"/>
-    <wire from="(240,220)" to="(240,310)"/>
-    <wire from="(240,220)" to="(320,220)"/>
-    <wire from="(240,310)" to="(240,400)"/>
-    <wire from="(240,310)" to="(320,310)"/>
-    <wire from="(240,400)" to="(240,490)"/>
-    <wire from="(240,400)" to="(320,400)"/>
-    <wire from="(240,490)" to="(240,580)"/>
-    <wire from="(240,490)" to="(320,490)"/>
-    <wire from="(240,580)" to="(240,670)"/>
-    <wire from="(240,580)" to="(320,580)"/>
-    <wire from="(240,670)" to="(240,760)"/>
-    <wire from="(240,670)" to="(320,670)"/>
-    <wire from="(240,760)" to="(240,850)"/>
-    <wire from="(240,760)" to="(320,760)"/>
-    <wire from="(240,850)" to="(240,930)"/>
-    <wire from="(240,850)" to="(320,850)"/>
-    <wire from="(260,170)" to="(260,180)"/>
-    <wire from="(260,260)" to="(260,270)"/>
-    <wire from="(260,350)" to="(260,360)"/>
-    <wire from="(260,440)" to="(260,450)"/>
-    <wire from="(260,530)" to="(260,540)"/>
-    <wire from="(260,620)" to="(260,630)"/>
-    <wire from="(260,710)" to="(260,720)"/>
-    <wire from="(260,800)" to="(260,810)"/>
-    <wire from="(270,160)" to="(290,160)"/>
-    <wire from="(270,250)" to="(290,250)"/>
-    <wire from="(270,340)" to="(290,340)"/>
-    <wire from="(270,430)" to="(290,430)"/>
-    <wire from="(270,520)" to="(290,520)"/>
-    <wire from="(270,610)" to="(290,610)"/>
-    <wire from="(270,700)" to="(290,700)"/>
-    <wire from="(270,790)" to="(290,790)"/>
-    <wire from="(280,200)" to="(280,290)"/>
-    <wire from="(280,200)" to="(290,200)"/>
-    <wire from="(280,290)" to="(280,380)"/>
-    <wire from="(280,290)" to="(290,290)"/>
-    <wire from="(280,380)" to="(280,470)"/>
-    <wire from="(280,380)" to="(290,380)"/>
-    <wire from="(280,470)" to="(280,560)"/>
-    <wire from="(280,470)" to="(290,470)"/>
-    <wire from="(280,560)" to="(280,650)"/>
-    <wire from="(280,560)" to="(290,560)"/>
-    <wire from="(280,650)" to="(280,740)"/>
-    <wire from="(280,650)" to="(290,650)"/>
-    <wire from="(280,740)" to="(280,830)"/>
-    <wire from="(280,740)" to="(290,740)"/>
-    <wire from="(280,830)" to="(280,960)"/>
-    <wire from="(280,830)" to="(290,830)"/>
-    <wire from="(320,210)" to="(320,220)"/>
-    <wire from="(320,300)" to="(320,310)"/>
-    <wire from="(320,390)" to="(320,400)"/>
-    <wire from="(320,480)" to="(320,490)"/>
-    <wire from="(320,570)" to="(320,580)"/>
-    <wire from="(320,660)" to="(320,670)"/>
-    <wire from="(320,750)" to="(320,760)"/>
-    <wire from="(320,840)" to="(320,850)"/>
-    <wire from="(350,160)" to="(410,160)"/>
-    <wire from="(350,250)" to="(410,250)"/>
-    <wire from="(350,340)" to="(410,340)"/>
-    <wire from="(350,430)" to="(410,430)"/>
-    <wire from="(350,520)" to="(560,520)"/>
-    <wire from="(350,610)" to="(560,610)"/>
-    <wire from="(350,700)" to="(560,700)"/>
-    <wire from="(350,790)" to="(560,790)"/>
-    <wire from="(380,180)" to="(380,270)"/>
-    <wire from="(380,180)" to="(420,180)"/>
-    <wire from="(380,270)" to="(380,360)"/>
-    <wire from="(380,270)" to="(420,270)"/>
-    <wire from="(380,360)" to="(380,450)"/>
-    <wire from="(380,360)" to="(420,360)"/>
-    <wire from="(380,450)" to="(380,900)"/>
-    <wire from="(380,450)" to="(420,450)"/>
-    <wire from="(420,170)" to="(420,180)"/>
-    <wire from="(420,260)" to="(420,270)"/>
-    <wire from="(420,350)" to="(420,360)"/>
-    <wire from="(420,440)" to="(420,450)"/>
-    <wire from="(430,160)" to="(560,160)"/>
-    <wire from="(430,250)" to="(560,250)"/>
-    <wire from="(430,340)" to="(560,340)"/>
-    <wire from="(430,430)" to="(560,430)"/>
-    <wire from="(580,150)" to="(600,150)"/>
   </circuit>
   <circuit name="somador_1bit">
     <a name="appearance" val="custom"/>
