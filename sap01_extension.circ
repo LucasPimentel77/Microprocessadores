@@ -5910,17 +5910,27 @@
       <rect fill="none" height="40" stroke="#000000" width="40" x="50" y="50"/>
       <text dominant-baseline="central" font-family="SansSerif" font-size="7" text-anchor="middle" x="55" y="60">A</text>
       <text dominant-baseline="central" font-family="SansSerif" font-size="7" text-anchor="middle" x="55" y="80">B</text>
-      <text dominant-baseline="central" font-family="SansSerif" font-size="7" text-anchor="middle" x="69" y="84"> sel</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="59" y="84"> sel</text>
       <text dominant-baseline="central" font-family="SansSerif" font-size="7" text-anchor="middle" x="84" y="69">S</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="70" y="55">Cin</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="80" y="84">Cout</text>
       <circ-anchor facing="east" x="90" y="70"/>
-      <circ-port dir="in" pin="250,430" x="70" y="90"/>
+      <circ-port dir="in" pin="210,490" x="60" y="90"/>
       <circ-port dir="in" pin="260,290" x="50" y="60"/>
       <circ-port dir="in" pin="300,290" x="50" y="80"/>
-      <circ-port dir="out" pin="470,340" x="90" y="70"/>
+      <circ-port dir="in" pin="360,290" x="70" y="50"/>
+      <circ-port dir="out" pin="360,390" x="80" y="90"/>
+      <circ-port dir="out" pin="510,360" x="90" y="70"/>
     </appear>
-    <comp lib="0" loc="(250,430)" name="Pin">
+    <comp lib="0" loc="(210,490)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="sel"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(230,480)" name="Splitter">
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="0"/>
+      <a name="fanout" val="1"/>
     </comp>
     <comp lib="0" loc="(260,290)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -5932,40 +5942,70 @@
       <a name="facing" val="south"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="0" loc="(470,340)" name="Pin">
+    <comp lib="0" loc="(360,290)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="south"/>
+      <a name="label" val="Cin"/>
+    </comp>
+    <comp lib="0" loc="(360,390)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Cout"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(510,360)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="S"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="1" loc="(370,320)" name="AND Gate">
+    <comp lib="1" loc="(370,420)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(370,380)" name="OR Gate">
+    <comp lib="1" loc="(370,460)" name="OR Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="2" loc="(450,340)" name="Multiplexer"/>
-    <wire from="(250,430)" to="(430,430)"/>
+    <comp lib="2" loc="(490,360)" name="Multiplexer">
+      <a name="select" val="2"/>
+    </comp>
+    <comp loc="(380,350)" name="somador_subtrator_1bit"/>
+    <wire from="(210,490)" to="(230,490)"/>
+    <wire from="(230,480)" to="(230,490)"/>
+    <wire from="(230,490)" to="(470,490)"/>
+    <wire from="(250,320)" to="(250,470)"/>
+    <wire from="(250,320)" to="(340,320)"/>
     <wire from="(260,290)" to="(260,300)"/>
     <wire from="(260,300)" to="(270,300)"/>
-    <wire from="(270,300)" to="(270,330)"/>
-    <wire from="(270,330)" to="(270,390)"/>
-    <wire from="(270,330)" to="(340,330)"/>
-    <wire from="(270,390)" to="(340,390)"/>
-    <wire from="(290,300)" to="(290,310)"/>
+    <wire from="(270,300)" to="(270,340)"/>
+    <wire from="(270,340)" to="(270,430)"/>
+    <wire from="(270,340)" to="(320,340)"/>
+    <wire from="(270,430)" to="(270,470)"/>
+    <wire from="(270,430)" to="(340,430)"/>
+    <wire from="(270,470)" to="(340,470)"/>
+    <wire from="(290,300)" to="(290,360)"/>
     <wire from="(290,300)" to="(300,300)"/>
-    <wire from="(290,310)" to="(290,370)"/>
-    <wire from="(290,310)" to="(340,310)"/>
-    <wire from="(290,370)" to="(340,370)"/>
+    <wire from="(290,360)" to="(290,410)"/>
+    <wire from="(290,360)" to="(320,360)"/>
+    <wire from="(290,410)" to="(290,450)"/>
+    <wire from="(290,410)" to="(340,410)"/>
+    <wire from="(290,450)" to="(340,450)"/>
     <wire from="(300,290)" to="(300,300)"/>
-    <wire from="(370,320)" to="(400,320)"/>
-    <wire from="(370,380)" to="(400,380)"/>
-    <wire from="(400,320)" to="(400,330)"/>
-    <wire from="(400,330)" to="(420,330)"/>
-    <wire from="(400,350)" to="(400,380)"/>
-    <wire from="(400,350)" to="(420,350)"/>
-    <wire from="(430,360)" to="(430,430)"/>
-    <wire from="(450,340)" to="(470,340)"/>
+    <wire from="(340,320)" to="(340,330)"/>
+    <wire from="(350,370)" to="(350,390)"/>
+    <wire from="(350,390)" to="(360,390)"/>
+    <wire from="(360,290)" to="(360,330)"/>
+    <wire from="(370,420)" to="(430,420)"/>
+    <wire from="(370,460)" to="(440,460)"/>
+    <wire from="(380,350)" to="(440,350)"/>
+    <wire from="(430,360)" to="(430,420)"/>
+    <wire from="(430,360)" to="(450,360)"/>
+    <wire from="(440,340)" to="(440,350)"/>
+    <wire from="(440,340)" to="(450,340)"/>
+    <wire from="(440,350)" to="(450,350)"/>
+    <wire from="(440,370)" to="(440,460)"/>
+    <wire from="(440,370)" to="(450,370)"/>
+    <wire from="(470,380)" to="(470,490)"/>
+    <wire from="(490,360)" to="(510,360)"/>
   </circuit>
   <circuit name="and_or_8bits">
     <a name="appearance" val="custom"/>
