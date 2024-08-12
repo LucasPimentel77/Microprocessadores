@@ -291,13 +291,13 @@
       <a name="bg" val="#000000"/>
       <a name="offcolor" val="#000000"/>
     </comp>
+    <comp lib="8" loc="(1000,125)" name="Text">
+      <a name="font" val="SansSerif bold 11"/>
+      <a name="text" val="registrador de 8 bits que "/>
+    </comp>
     <comp lib="8" loc="(1000,685)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="OUT - saída"/>
-    </comp>
-    <comp lib="8" loc="(1001,126)" name="Text">
-      <a name="font" val="SansSerif bold 11"/>
-      <a name="text" val="registrador de 8 bits que "/>
     </comp>
     <comp lib="8" loc="(1010,470)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
@@ -315,23 +315,23 @@
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="Acumulador"/>
     </comp>
+    <comp lib="8" loc="(1015,265)" name="Text">
+      <a name="font" val="SansSerif bold 12"/>
+      <a name="text" val="ALU - Arithmetic Logic Unit"/>
+    </comp>
+    <comp lib="8" loc="(1015,290)" name="Text">
+      <a name="font" val="SansSerif bold 11"/>
+      <a name="text" val="é a unidade responsável por fazer "/>
+    </comp>
+    <comp lib="8" loc="(1015,300)" name="Text">
+      <a name="font" val="SansSerif bold 11"/>
+      <a name="text" val="as operações lógicas e aritméticas"/>
+    </comp>
     <comp lib="8" loc="(1015,500)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="que armazena dados para operações"/>
     </comp>
-    <comp lib="8" loc="(1016,265)" name="Text">
-      <a name="font" val="SansSerif bold 12"/>
-      <a name="text" val="ALU - Arithmetic Logic Unit"/>
-    </comp>
-    <comp lib="8" loc="(1017,294)" name="Text">
-      <a name="font" val="SansSerif bold 11"/>
-      <a name="text" val="é a unidade responsável por fazer "/>
-    </comp>
-    <comp lib="8" loc="(1017,304)" name="Text">
-      <a name="font" val="SansSerif bold 11"/>
-      <a name="text" val="as operações lógicas e aritméticas"/>
-    </comp>
-    <comp lib="8" loc="(1018,895)" name="Text">
+    <comp lib="8" loc="(1015,895)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="é a unidade de controle do"/>
     </comp>
@@ -339,7 +339,7 @@
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="registra resultado de operações"/>
     </comp>
-    <comp lib="8" loc="(1041,907)" name="Text">
+    <comp lib="8" loc="(1040,905)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="processador, usado para controlar"/>
     </comp>
@@ -347,7 +347,7 @@
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="as entradas e saídas de cada componente"/>
     </comp>
-    <comp lib="8" loc="(1066,876)" name="Text">
+    <comp lib="8" loc="(1065,875)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="Control"/>
     </comp>
@@ -423,7 +423,7 @@
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="o endereço da instrução a ser"/>
     </comp>
-    <comp lib="8" loc="(635,1163)" name="Text">
+    <comp lib="8" loc="(635,1160)" name="Text">
       <a name="font" val="SansSerif bold 11"/>
       <a name="text" val="Timer: mostra em que tempo está no ciclo de máquina"/>
     </comp>
@@ -1354,20 +1354,20 @@
     <comp lib="8" loc="(575,115)" name="Text">
       <a name="text" val="convencionalmente os 8 primeiros são para instruções e os 8 restantes "/>
     </comp>
-    <comp lib="8" loc="(632,235)" name="Text">
+    <comp lib="8" loc="(630,235)" name="Text">
       <a name="font" val="SansSerif bold 18"/>
       <a name="text" val="É possível selecionar a maneira em que deseja mexer na RAM:"/>
     </comp>
-    <comp lib="8" loc="(637,255)" name="Text">
+    <comp lib="8" loc="(635,255)" name="Text">
       <a name="font" val="SansSerif bold 18"/>
       <a name="text" val="[0]- adicionar direto na memória direto com o código de máquina"/>
     </comp>
-    <comp lib="8" loc="(697,300)" name="Text">
+    <comp lib="8" loc="(695,300)" name="Text">
       <a name="color" val="#d62421"/>
       <a name="font" val="SansSerif bold 20"/>
       <a name="text" val="O que define isso é o botão 'sel' la em baixo no código"/>
     </comp>
-    <comp lib="8" loc="(722,275)" name="Text">
+    <comp lib="8" loc="(720,275)" name="Text">
       <a name="font" val="SansSerif bold 18"/>
       <a name="text" val="[1]- adicionar um código em hexadecimal que pode ser edicionado de um arquivo txt"/>
     </comp>
@@ -2715,112 +2715,112 @@
       <rect height="10" stroke="none" width="2" x="89" y="40"/>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="9" font-weight="bold" text-anchor="end" x="117" y="73">S</text>
       <circ-anchor facing="east" x="130" y="70"/>
-      <circ-port dir="in" pin="220,220" x="50" y="60"/>
-      <circ-port dir="in" pin="260,220" x="50" y="80"/>
-      <circ-port dir="in" pin="300,220" x="90" y="40"/>
-      <circ-port dir="out" pin="570,330" x="90" y="100"/>
-      <circ-port dir="out" pin="710,550" x="130" y="70"/>
+      <circ-port dir="in" pin="1220,290" x="50" y="60"/>
+      <circ-port dir="in" pin="1260,290" x="50" y="80"/>
+      <circ-port dir="in" pin="1300,290" x="90" y="40"/>
+      <circ-port dir="out" pin="1570,400" x="90" y="100"/>
+      <circ-port dir="out" pin="1710,620" x="130" y="70"/>
     </appear>
-    <comp lib="0" loc="(220,220)" name="Pin">
+    <comp lib="0" loc="(1220,290)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="south"/>
       <a name="label" val="A"/>
     </comp>
-    <comp lib="0" loc="(260,220)" name="Pin">
+    <comp lib="0" loc="(1260,290)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="south"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="0" loc="(300,220)" name="Pin">
+    <comp lib="0" loc="(1300,290)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="south"/>
       <a name="label" val="Cin"/>
     </comp>
-    <comp lib="0" loc="(570,330)" name="Pin">
+    <comp lib="0" loc="(1570,400)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="Cout"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(710,550)" name="Pin">
+    <comp lib="0" loc="(1710,620)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="Soma"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="1" loc="(410,280)" name="AND Gate">
+    <comp lib="1" loc="(1410,350)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(410,330)" name="AND Gate">
+    <comp lib="1" loc="(1410,400)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(410,380)" name="AND Gate">
+    <comp lib="1" loc="(1410,450)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(450,560)" name="XOR Gate">
+    <comp lib="1" loc="(1450,630)" name="XOR Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(460,490)" name="XNOR Gate">
+    <comp lib="1" loc="(1460,560)" name="XNOR Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(540,330)" name="OR Gate">
+    <comp lib="1" loc="(1540,400)" name="OR Gate">
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="1" loc="(570,520)" name="AND Gate">
+    <comp lib="1" loc="(1570,590)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(570,590)" name="AND Gate">
+    <comp lib="1" loc="(1570,660)" name="AND Gate">
       <a name="negate1" val="true"/>
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(670,550)" name="OR Gate">
+    <comp lib="1" loc="(1670,620)" name="OR Gate">
       <a name="size" val="30"/>
     </comp>
-    <wire from="(220,220)" to="(220,270)"/>
-    <wire from="(220,270)" to="(220,320)"/>
-    <wire from="(220,270)" to="(380,270)"/>
-    <wire from="(220,320)" to="(220,480)"/>
-    <wire from="(220,320)" to="(380,320)"/>
-    <wire from="(220,480)" to="(220,550)"/>
-    <wire from="(220,480)" to="(410,480)"/>
-    <wire from="(220,550)" to="(410,550)"/>
-    <wire from="(260,220)" to="(260,290)"/>
-    <wire from="(260,290)" to="(260,370)"/>
-    <wire from="(260,290)" to="(380,290)"/>
-    <wire from="(260,370)" to="(260,500)"/>
-    <wire from="(260,370)" to="(380,370)"/>
-    <wire from="(260,500)" to="(260,570)"/>
-    <wire from="(260,500)" to="(410,500)"/>
-    <wire from="(260,570)" to="(410,570)"/>
-    <wire from="(300,220)" to="(300,340)"/>
-    <wire from="(300,340)" to="(300,390)"/>
-    <wire from="(300,340)" to="(380,340)"/>
-    <wire from="(300,390)" to="(300,530)"/>
-    <wire from="(300,390)" to="(380,390)"/>
-    <wire from="(300,530)" to="(300,600)"/>
-    <wire from="(300,530)" to="(540,530)"/>
-    <wire from="(300,600)" to="(530,600)"/>
-    <wire from="(410,280)" to="(480,280)"/>
-    <wire from="(410,330)" to="(490,330)"/>
-    <wire from="(410,380)" to="(480,380)"/>
-    <wire from="(450,560)" to="(500,560)"/>
-    <wire from="(460,490)" to="(500,490)"/>
-    <wire from="(480,280)" to="(480,310)"/>
-    <wire from="(480,310)" to="(490,310)"/>
-    <wire from="(480,350)" to="(480,380)"/>
-    <wire from="(480,350)" to="(490,350)"/>
-    <wire from="(500,490)" to="(500,510)"/>
-    <wire from="(500,510)" to="(540,510)"/>
-    <wire from="(500,560)" to="(500,580)"/>
-    <wire from="(500,580)" to="(540,580)"/>
-    <wire from="(540,330)" to="(570,330)"/>
-    <wire from="(570,520)" to="(610,520)"/>
-    <wire from="(570,590)" to="(610,590)"/>
-    <wire from="(610,520)" to="(610,540)"/>
-    <wire from="(610,540)" to="(640,540)"/>
-    <wire from="(610,560)" to="(610,590)"/>
-    <wire from="(610,560)" to="(640,560)"/>
-    <wire from="(670,550)" to="(710,550)"/>
+    <wire from="(1220,290)" to="(1220,340)"/>
+    <wire from="(1220,340)" to="(1220,390)"/>
+    <wire from="(1220,340)" to="(1380,340)"/>
+    <wire from="(1220,390)" to="(1220,550)"/>
+    <wire from="(1220,390)" to="(1380,390)"/>
+    <wire from="(1220,550)" to="(1220,620)"/>
+    <wire from="(1220,550)" to="(1410,550)"/>
+    <wire from="(1220,620)" to="(1410,620)"/>
+    <wire from="(1260,290)" to="(1260,360)"/>
+    <wire from="(1260,360)" to="(1260,440)"/>
+    <wire from="(1260,360)" to="(1380,360)"/>
+    <wire from="(1260,440)" to="(1260,570)"/>
+    <wire from="(1260,440)" to="(1380,440)"/>
+    <wire from="(1260,570)" to="(1260,640)"/>
+    <wire from="(1260,570)" to="(1410,570)"/>
+    <wire from="(1260,640)" to="(1410,640)"/>
+    <wire from="(1300,290)" to="(1300,410)"/>
+    <wire from="(1300,410)" to="(1300,460)"/>
+    <wire from="(1300,410)" to="(1380,410)"/>
+    <wire from="(1300,460)" to="(1300,600)"/>
+    <wire from="(1300,460)" to="(1380,460)"/>
+    <wire from="(1300,600)" to="(1300,670)"/>
+    <wire from="(1300,600)" to="(1540,600)"/>
+    <wire from="(1300,670)" to="(1530,670)"/>
+    <wire from="(1410,350)" to="(1480,350)"/>
+    <wire from="(1410,400)" to="(1490,400)"/>
+    <wire from="(1410,450)" to="(1480,450)"/>
+    <wire from="(1450,630)" to="(1500,630)"/>
+    <wire from="(1460,560)" to="(1500,560)"/>
+    <wire from="(1480,350)" to="(1480,380)"/>
+    <wire from="(1480,380)" to="(1490,380)"/>
+    <wire from="(1480,420)" to="(1480,450)"/>
+    <wire from="(1480,420)" to="(1490,420)"/>
+    <wire from="(1500,560)" to="(1500,580)"/>
+    <wire from="(1500,580)" to="(1540,580)"/>
+    <wire from="(1500,630)" to="(1500,650)"/>
+    <wire from="(1500,650)" to="(1540,650)"/>
+    <wire from="(1540,400)" to="(1570,400)"/>
+    <wire from="(1570,590)" to="(1610,590)"/>
+    <wire from="(1570,660)" to="(1610,660)"/>
+    <wire from="(1610,590)" to="(1610,610)"/>
+    <wire from="(1610,610)" to="(1640,610)"/>
+    <wire from="(1610,630)" to="(1610,660)"/>
+    <wire from="(1610,630)" to="(1640,630)"/>
+    <wire from="(1670,620)" to="(1710,620)"/>
   </circuit>
   <circuit name="somador_subtrator_1bit">
     <a name="appearance" val="custom"/>
