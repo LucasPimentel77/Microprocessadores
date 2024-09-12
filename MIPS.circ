@@ -55,7 +55,7 @@
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="8.0"/>
+    <a name="simulationFrequency" val="2.0"/>
     <comp lib="0" loc="(1020,130)" name="Constant">
       <a name="facing" val="west"/>
       <a name="value" val="0x0"/>
@@ -353,8 +353,10 @@
       <a name="addrWidth" val="5"/>
       <a name="appearance" val="evolution"/>
       <a name="contents">addr/data: 5 16
-fca0 fd05 8180 e001 c404 cd01 4002 fb01
-4002 6000
+9c00 ff01 fe8c de83 0 1751 4003 fc80
+412 9c00 fe84 de83 0 1751 400b fd00
+822 9c00 fe84 fe02 de87 dc03 201 ed81
+4015 f80 1751 4014 fe70 1042 500 200
 </a>
       <a name="dataWidth" val="16"/>
       <a name="label" val="memoriaDeInstrucoes"/>
@@ -486,7 +488,7 @@ fca0 fd05 8180 e001 c404 cd01 4002 fb01
     <wire from="(540,300)" to="(540,510)"/>
     <wire from="(540,300)" to="(610,300)"/>
     <wire from="(540,510)" to="(540,810)"/>
-    <wire from="(540,810)" to="(730,810)"/>
+    <wire from="(540,810)" to="(700,810)"/>
     <wire from="(550,530)" to="(600,530)"/>
     <wire from="(610,350)" to="(650,350)"/>
     <wire from="(610,380)" to="(650,380)"/>
@@ -2081,16 +2083,16 @@ fca0 fd05 8180 e001 c404 cd01 4002 fb01
       <circ-anchor facing="east" x="270" y="60"/>
       <circ-port dir="in" pin="570,620" x="50" y="80"/>
       <circ-port dir="in" pin="580,180" x="50" y="60"/>
-      <circ-port dir="out" pin="960,110" x="270" y="60"/>
-      <circ-port dir="out" pin="960,160" x="270" y="80"/>
-      <circ-port dir="out" pin="960,210" x="270" y="100"/>
-      <circ-port dir="out" pin="960,260" x="270" y="120"/>
-      <circ-port dir="out" pin="960,310" x="270" y="140"/>
-      <circ-port dir="out" pin="960,360" x="270" y="160"/>
-      <circ-port dir="out" pin="960,410" x="270" y="180"/>
-      <circ-port dir="out" pin="960,460" x="270" y="200"/>
-      <circ-port dir="out" pin="960,510" x="270" y="220"/>
-      <circ-port dir="out" pin="960,560" x="270" y="240"/>
+      <circ-port dir="out" pin="930,120" x="270" y="60"/>
+      <circ-port dir="out" pin="930,170" x="270" y="80"/>
+      <circ-port dir="out" pin="930,220" x="270" y="100"/>
+      <circ-port dir="out" pin="930,270" x="270" y="120"/>
+      <circ-port dir="out" pin="930,320" x="270" y="140"/>
+      <circ-port dir="out" pin="930,370" x="270" y="160"/>
+      <circ-port dir="out" pin="930,420" x="270" y="180"/>
+      <circ-port dir="out" pin="930,470" x="270" y="200"/>
+      <circ-port dir="out" pin="930,520" x="270" y="220"/>
+      <circ-port dir="out" pin="930,570" x="270" y="240"/>
       <circ-port dir="out" pin="960,610" x="270" y="260"/>
     </appear>
     <comp lib="0" loc="(550,70)" name="Constant"/>
@@ -2108,61 +2110,61 @@ fca0 fd05 8180 e001 c404 cd01 4002 fb01
       <a name="value" val="0x0"/>
       <a name="width" val="16"/>
     </comp>
-    <comp lib="0" loc="(960,110)" name="Pin">
+    <comp lib="0" loc="(930,120)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="MemWrite"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(960,160)" name="Pin">
+    <comp lib="0" loc="(930,170)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="MemRead"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(960,210)" name="Pin">
+    <comp lib="0" loc="(930,220)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="MemtoReg"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(960,260)" name="Pin">
+    <comp lib="0" loc="(930,270)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="RegDst"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(960,310)" name="Pin">
+    <comp lib="0" loc="(930,320)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="ALUOp0"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(960,360)" name="Pin">
+    <comp lib="0" loc="(930,370)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="ALUOp1"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(960,410)" name="Pin">
+    <comp lib="0" loc="(930,420)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="ALUSrc"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(960,460)" name="Pin">
+    <comp lib="0" loc="(930,470)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="RegWrite"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(960,510)" name="Pin">
+    <comp lib="0" loc="(930,520)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="Branch"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(960,560)" name="Pin">
+    <comp lib="0" loc="(930,570)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="Jump"/>
@@ -2190,46 +2192,6 @@ fca0 fd05 8180 e001 c404 cd01 4002 fb01
     </comp>
     <comp lib="1" loc="(860,470)" name="OR Gate">
       <a name="inputs" val="4"/>
-      <a name="size" val="30"/>
-    </comp>
-    <comp lib="1" loc="(940,110)" name="AND Gate">
-      <a name="negate0" val="true"/>
-      <a name="size" val="30"/>
-    </comp>
-    <comp lib="1" loc="(940,160)" name="AND Gate">
-      <a name="negate0" val="true"/>
-      <a name="size" val="30"/>
-    </comp>
-    <comp lib="1" loc="(940,210)" name="AND Gate">
-      <a name="negate0" val="true"/>
-      <a name="size" val="30"/>
-    </comp>
-    <comp lib="1" loc="(940,260)" name="AND Gate">
-      <a name="negate0" val="true"/>
-      <a name="size" val="30"/>
-    </comp>
-    <comp lib="1" loc="(940,310)" name="AND Gate">
-      <a name="negate0" val="true"/>
-      <a name="size" val="30"/>
-    </comp>
-    <comp lib="1" loc="(940,360)" name="AND Gate">
-      <a name="negate0" val="true"/>
-      <a name="size" val="30"/>
-    </comp>
-    <comp lib="1" loc="(940,410)" name="AND Gate">
-      <a name="negate0" val="true"/>
-      <a name="size" val="30"/>
-    </comp>
-    <comp lib="1" loc="(940,460)" name="AND Gate">
-      <a name="negate0" val="true"/>
-      <a name="size" val="30"/>
-    </comp>
-    <comp lib="1" loc="(940,510)" name="AND Gate">
-      <a name="negate0" val="true"/>
-      <a name="size" val="30"/>
-    </comp>
-    <comp lib="1" loc="(940,560)" name="AND Gate">
-      <a name="negate0" val="true"/>
       <a name="size" val="30"/>
     </comp>
     <comp lib="2" loc="(590,70)" name="Demultiplexer">
@@ -2346,10 +2308,10 @@ fca0 fd05 8180 e001 c404 cd01 4002 fb01
     <wire from="(730,440)" to="(830,440)"/>
     <wire from="(730,490)" to="(830,490)"/>
     <wire from="(740,50)" to="(740,570)"/>
-    <wire from="(740,570)" to="(910,570)"/>
+    <wire from="(740,570)" to="(930,570)"/>
     <wire from="(750,310)" to="(750,520)"/>
     <wire from="(750,310)" to="(830,310)"/>
-    <wire from="(750,520)" to="(910,520)"/>
+    <wire from="(750,520)" to="(930,520)"/>
     <wire from="(750,90)" to="(750,310)"/>
     <wire from="(760,100)" to="(760,280)"/>
     <wire from="(760,280)" to="(760,430)"/>
@@ -2358,13 +2320,13 @@ fca0 fd05 8180 e001 c404 cd01 4002 fb01
     <wire from="(760,430)" to="(830,430)"/>
     <wire from="(760,480)" to="(830,480)"/>
     <wire from="(770,120)" to="(770,410)"/>
-    <wire from="(770,120)" to="(910,120)"/>
+    <wire from="(770,120)" to="(930,120)"/>
     <wire from="(770,410)" to="(830,410)"/>
     <wire from="(770,80)" to="(770,120)"/>
     <wire from="(780,170)" to="(780,220)"/>
-    <wire from="(780,170)" to="(910,170)"/>
+    <wire from="(780,170)" to="(930,170)"/>
     <wire from="(780,220)" to="(780,260)"/>
-    <wire from="(780,220)" to="(910,220)"/>
+    <wire from="(780,220)" to="(930,220)"/>
     <wire from="(780,260)" to="(780,400)"/>
     <wire from="(780,260)" to="(830,260)"/>
     <wire from="(780,400)" to="(780,460)"/>
@@ -2375,41 +2337,11 @@ fca0 fd05 8180 e001 c404 cd01 4002 fb01
     <wire from="(790,360)" to="(790,450)"/>
     <wire from="(790,360)" to="(830,360)"/>
     <wire from="(790,450)" to="(830,450)"/>
-    <wire from="(860,270)" to="(910,270)"/>
-    <wire from="(860,320)" to="(910,320)"/>
-    <wire from="(860,370)" to="(910,370)"/>
-    <wire from="(860,420)" to="(910,420)"/>
-    <wire from="(860,470)" to="(910,470)"/>
-    <wire from="(890,100)" to="(890,150)"/>
-    <wire from="(890,100)" to="(900,100)"/>
-    <wire from="(890,150)" to="(890,200)"/>
-    <wire from="(890,150)" to="(900,150)"/>
-    <wire from="(890,200)" to="(890,250)"/>
-    <wire from="(890,200)" to="(900,200)"/>
-    <wire from="(890,250)" to="(890,300)"/>
-    <wire from="(890,250)" to="(900,250)"/>
-    <wire from="(890,300)" to="(890,350)"/>
-    <wire from="(890,300)" to="(900,300)"/>
-    <wire from="(890,350)" to="(890,400)"/>
-    <wire from="(890,350)" to="(900,350)"/>
-    <wire from="(890,400)" to="(890,450)"/>
-    <wire from="(890,400)" to="(900,400)"/>
-    <wire from="(890,450)" to="(890,500)"/>
-    <wire from="(890,450)" to="(900,450)"/>
-    <wire from="(890,500)" to="(890,550)"/>
-    <wire from="(890,500)" to="(900,500)"/>
-    <wire from="(890,550)" to="(890,640)"/>
-    <wire from="(890,550)" to="(900,550)"/>
-    <wire from="(940,110)" to="(960,110)"/>
-    <wire from="(940,160)" to="(960,160)"/>
-    <wire from="(940,210)" to="(960,210)"/>
-    <wire from="(940,260)" to="(960,260)"/>
-    <wire from="(940,310)" to="(960,310)"/>
-    <wire from="(940,360)" to="(960,360)"/>
-    <wire from="(940,410)" to="(960,410)"/>
-    <wire from="(940,460)" to="(960,460)"/>
-    <wire from="(940,510)" to="(960,510)"/>
-    <wire from="(940,560)" to="(960,560)"/>
+    <wire from="(860,270)" to="(930,270)"/>
+    <wire from="(860,320)" to="(930,320)"/>
+    <wire from="(860,370)" to="(930,370)"/>
+    <wire from="(860,420)" to="(930,420)"/>
+    <wire from="(860,470)" to="(930,470)"/>
   </circuit>
   <circuit name="ControleALU">
     <a name="appearance" val="custom"/>
